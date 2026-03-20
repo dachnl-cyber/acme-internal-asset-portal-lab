@@ -1,0 +1,9 @@
+{
+  "name": "mock-metadata-service",
+  "version": "1.0.0",
+  "description": "Internal-only config metadata service for lab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

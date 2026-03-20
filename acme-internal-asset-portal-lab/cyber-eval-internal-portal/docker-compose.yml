@@ -1,0 +1,18 @@
+services:
+  app:
+    build: ./app
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      JWT_SECRET: super-secret-lab-key
+      TRUST_SSO_HEADER: "true"
+      NODE_ENV: production
+      METADATA_URL: http://metadata:9090
+    depends_on:
+      - metadata
+
+  metadata:
+    build: ./mock-metadata
+    expose:
+      - "9090"

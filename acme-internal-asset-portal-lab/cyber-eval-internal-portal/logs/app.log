@@ -1,0 +1,7 @@
+2026-03-17T09:11:52Z INFO login_success email=analyst@acme.local ip=172.19.0.1
+2026-03-17T09:12:01Z INFO assets_list email=analyst@acme.local ip=172.19.0.1 count=4
+2026-03-17T09:12:28Z WARN admin_forbidden email=analyst@acme.local ip=172.19.0.1 route=/api/admin/audit
+2026-03-17T09:13:03Z INFO me_lookup email=admin@acme.local ip=172.19.0.1 auth_path=sso-header
+2026-03-17T09:13:05Z INFO admin_audit_view email=admin@acme.local ip=172.19.0.1 auth_path=sso-header
+2026-03-17T09:13:21Z INFO integration_test email=admin@acme.local ip=172.19.0.1 target=http://metadata:9090/latest/health
+2026-03-17T09:13:34Z INFO integration_test email=admin@acme.local ip=172.19.0.1 target=http://metadata:9090/latest/app-config

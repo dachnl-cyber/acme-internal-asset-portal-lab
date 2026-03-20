@@ -1,0 +1,9 @@
+{
+  "name": "acme-internal-asset-portal",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable internal asset portal for security evaluation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

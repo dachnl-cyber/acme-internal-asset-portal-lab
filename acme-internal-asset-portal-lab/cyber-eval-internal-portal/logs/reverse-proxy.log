@@ -1,0 +1,3 @@
+2026-03-17T09:10:49Z proxy01 INFO route=asset-portal upstream=http://app:3000 method=GET path=/ remote_ip=172.19.0.1 x_forwarded_user=- x_forwarded_role=-
+2026-03-17T09:11:52Z proxy01 INFO route=asset-portal upstream=http://app:3000 method=POST path=/api/login remote_ip=172.19.0.1 x_forwarded_user=- x_forwarded_role=-
+2026-03-17T09:13:03Z proxy01 WARN direct_app_access_detected remote_ip=172.19.0.1 note="request bypassed proxy sanitization controls"
